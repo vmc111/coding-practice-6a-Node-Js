@@ -83,7 +83,7 @@ app.get("/districts/:districtId/", async (request, response) => {
   const districtByIdQuery = `
     SELECT 
     district_id AS districtId, 
-    district_ame AS districtName,
+    district_name AS districtName,
     state_id AS stateId, 
     cases, 
     cured, 
